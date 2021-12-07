@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ProyectoBase3CM13_V3">
+    <Resource auth="container" driverClassName="org.postgresql.Driver" name="jdbc/DataSourceWAD"
+              type="javax.sql.DataSource" maxActive="100"
+              maxIdle="30" maxWait="10000"
+              url="jdbc:postgresql://localhost:5432/Base3CM13"
+              username="postgres"
+              password="123"    />
+</Context>
